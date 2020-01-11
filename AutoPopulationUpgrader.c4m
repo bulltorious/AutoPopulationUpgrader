@@ -1,0 +1,152 @@
+icon "AutoPopulationUpgrader.tga"
+description "Auto upgrade farms, cities, hamlets"
+modprio 5
+
+
+squareevent 
++player 20
++terrain 109
++minturnnbr 5
++chance 5
+-squareowner 17
+-squareowner 18
+-squareowner 19
+-squareowner 20
+message -3 "A homeless tent village has become a hamlet."
+alterterrain 8
+endevent
+
+
+squareevent 
++player 20
++terrain 5
++minturnnbr 5
++chance 5
+-squareowner 17
+-squareowner 18
+-squareowner 19
+-squareowner 20
+message -3 "A farm has become a hamlet."
+alterterrain 8
+endevent
+
+squareevent 
++player 20
++terrain 6
++minturnnbr 5
++chance 5
+-squareowner 17
+-squareowner 18
+-squareowner 19
+-squareowner 20
+message -3 "A farm has become a hamlet."
+alterterrain 8
+endevent
+
+squareevent 
++player 20
++terrain 7
++minturnnbr 15
++chance 2
+-squareowner 17
+-squareowner 18
+-squareowner 19
+-squareowner 20
+-armyowner 17
+-armyowner 18
+-armyowner 19
+-armyowner 20
+message -3 "Against all odds a hamlet has grown to a village!"
+alterterrain 18
+endevent
+
+squareevent 
++player 20
++terrain 8
++minturnnbr 15
++chance 2
+-squareowner 17
+-squareowner 18
+-squareowner 19
+-squareowner 20
+-armyowner 17
+-armyowner 18
+-armyowner 19
+-armyowner 20
+message -3 "Against all odds a hamlet has grown to a village!"
+alterterrain 18
+endevent
+
+squareevent 
++player 20
++terrain 18
++minturnnbr 10
++chance 2
+-squareowner 17
+-squareowner 18
+-squareowner 19
+-squareowner 20
+message -3 "Commerce thrives, a village has become a market village!"
+alterterrain 206
+endevent
+
+squareevent 
++player 20
++terrain 18
++minturnnbr 25
++chance 1
+-squareowner 17
+-squareowner 18
+-squareowner 19
+-squareowner 20
+message -3 "A village has grown into a town!"
+alterterrain 17
+endevent
+
+squareevent 
++player 20
++terrain 206
++minturnnbr 10
++chance 1
+-squareowner 17
+-squareowner 18
+-squareowner 19
+-squareowner 20
+message -3 "A market village has grown into a town!"
+alterterrain 17
+endevent
+
+squareevent 
++player 20
++terrain 206
++minturnnbr 15
++chance 1
+-squareowner 17
+-squareowner 18
+-squareowner 19
+-squareowner 20
+-armyowner 17
+-armyowner 18
+-armyowner 19
+-armyowner 20
+message -3 "A market village has suddenly turned into a city! Some say there's no power above wealth, perhaps they are right."
+alterterrain 9
+endevent
+
+
+squareevent 
++player 20
++terrain 17
++minturnnbr 15
++chance 1
+-squareowner 17
+-squareowner 18
+-squareowner 19
+-squareowner 20
+-armyowner 17
+-armyowner 18
+-armyowner 19
+-armyowner 20
+message -3 "With great hardship a town has developed into a city!"
+alterterrain 9
+endevent
